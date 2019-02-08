@@ -355,4 +355,13 @@ body{
         border-top-left-radius: 25%;
         border-bottom-left-radius: 25%; 
     }
+
+    #socialnetworks .col-7 img{
+        width: 70px;
+        height: 70px;
+    }
+
+    #socialnetworks .col-7 div{
+        margin-top: 10vh;
+    }
 }
