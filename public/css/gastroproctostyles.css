@@ -317,6 +317,11 @@ body{
 }
 
 
+.navbar-brand img{
+    margin-left: 6vw;
+}
+
+
 @media screen and (max-width: 1400px){
     .carrusel-left .carousel-caption h5, .carrusel-left-2 .carousel-caption h5, .carrusel-right .carousel-caption h5{
         font-size: 4.2em;
@@ -363,5 +368,9 @@ body{
 
     #socialnetworks .col-7 div{
         margin-top: 10vh;
+    }
+
+    .navbar-brand img{
+        margin-left: 5vw;
     }
 }
