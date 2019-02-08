@@ -1,0 +1,315 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#maincarrusel .carousel-item{
+    height: 100vh;
+}
+
+#maincarrusel{
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+/* LEFT TEXT CARRUSEL*/
+.carrusel-left .carousel-caption{
+    top: 0;
+    left: 0;
+    right: 60%;
+    bottom: 0;
+    background-color: rgba(10, 47, 81, 0.3);
+    /* 0A2F51 */
+
+}
+
+.carrusel-left .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    font-size: 6.2em;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+.carrusel-left .carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 0 3rem;
+}
+
+.carrusel-left .carousel-caption a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #12416D;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Color Altertanivo*/
+
+.carrusel-left-2 .carousel-caption{
+    top: 0;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(215, 146, 176, 0.3);
+    /* 0A2F51 */
+
+}
+
+.carrusel-left-2 .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    font-size: 6.2em;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+.carrusel-left-2 .carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 0 3rem;
+}
+
+.carrusel-left-2 .carousel-caption a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #D792B0;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/*RIGHT CARRUSEL*/
+.carrusel-right .carousel-caption{
+    top: 0;
+    left: 0;
+    right: 60%;
+    bottom: 0;
+    background-color: rgba(192, 210, 114, 0.4);
+    /* 0A2F51 */
+
+}
+
+.carrusel-right .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    font-size: 6.2em;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+.carrusel-right .carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+    /* color: #12416D; */
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 0 3rem;
+}
+
+.carrusel-right .carousel-caption a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #c0d272;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.biglogo{
+    width: 40%;
+}
+
+    .bg-light{
+        background-color: rgba(255,255,255,1) !important;
+    }
+
+#servicios{
+    padding-top: 10%;
+    height: 100vh;
+    background-image: url("/images/bgserv.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#servicios a{
+    color: #12416D;
+}
+
+#servicios i{
+    font-size: 3em;
+    text-align: center;
+}
+
+#servicios .tab-content{
+    margin-top: 15%;
+}
+
+#ubicacion{
+    height: 40vh;
+    /* background-image: url(/images/map.jpg); */
+    background-color: #C6C7CA;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#ubicacion .contact{
+    position: absolute;
+    top: 2vh;
+    bottom: 2vh;
+    left: 0;
+    right: 80%;
+    padding-top: 12vh;
+    padding-left: 1.5vw;
+    color: #FFF;
+    background-color: rgba(10, 47, 81, 0.8);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;  
+}
+
+#ubicacion .contact2{
+    position: absolute;
+    top: 2vh;
+    bottom: 2vh;
+    left: 80%;
+    right: 0;
+    padding-top: 12vh;
+    padding-left: 2vw;
+    color: #FFF;
+    background-color: rgba(215, 146, 176, 0.9);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;  
+}
+
+#map{
+    margin: 0 auto;
+    width: 100%;
+    height: 40vh;
+    background-color: grey;
+    border-top: 2vh solid #FFF;
+    border-bottom: 2vh solid #FFF;
+
+}
+
+
+#servicios #enfermedades .nav-link.active{
+    background-color: #c0d272;
+    color: #FFF !important;
+}
+
+#servicios #enfermedades a{
+    color: #c0d272;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgba(10, 47, 81, 1);
+    color: #FFF !important;
+}
+
+#socialnetworks{
+    height: 40vh;
+    background-color: #FFF;
+    margin-bottom: 2vh;
+    overflow: hidden;
+
+}
+
+#socialnetworks .col-5{
+    height: 100%;
+    background-color: #f7f7f7;
+    transform: skewx(20deg);
+    padding: 0;
+    min-width: 50% !important;
+    margin-left: -4vw;
+}
+
+#socialnetworks .col-5 img{
+    transform: skewx(-20deg);
+    display: block;
+    margin: 0 auto;
+    margin-top: 14vh;
+}
+
+#socialnetworks .col-7{
+    height: 100%;
+    transform: skewx(20deg);
+    margin-left: 1.3vw;
+    padding: 0;
+    overflow: hidden;
+}
+
+#socialnetworks .col-7 img{
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+}
+
+#socialnetworks .col-7 img:nth-child(2){
+    margin: 0 4vw; 
+}
+
+#socialnetworks .col-7 div{
+    height: 30%;
+    transform: skewx(-20deg);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 7vw;
+    margin-top: 9vh;
+}
+
+#socialnetworks h4{
+    transform: skewx(-20deg);
+    background-color: #c0d272;
+    color: #FFF;
+    padding: 3%;
+    margin-left: -2vw;
+    padding-left: 4vw;
+    width: 100%;
+    text-align: center;
+}
+
+
+#copyright{
+    background-color: rgba(10, 47, 81, 1);
+    color: #FFF;
+    padding: 2vh 2vw;
+}

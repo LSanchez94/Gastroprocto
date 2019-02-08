@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gastroprocto</title>
+    {{> _links}}
+</head> 
+<body>
+
+        {{> _mainmenu}}
+        
+<div id="maincarrusel" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#maincarrusel" data-slide-to="0" class="active"></li>
+    <li data-target="#maincarrusel" data-slide-to="1"></li>
+    <li data-target="#maincarrusel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active carrusel-left">
+        <img src="/images/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+            <div class="w-100 d-flex">
+                <h5 class="text-left">SERVICIO DE <br> EXCELENCIA</h5>
+            </div>
+            <div class="w-100 d-flex">
+                <p>La mejor atencion médica, ahora en Aguascalientes</p>
+            </div>
+            <div class="w-100 d-flex">
+                <a href="" class="">Saber más</a>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item carrusel-left-2">
+      <img src="/images/bg3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+            <div class="w-100 d-flex">
+                <h5 class="text-left">SERVICIO DE <br> EXCELENCIA</h5>
+            </div>
+            <div class="w-100 d-flex">
+                <p>La mejor atencion médica, ahora en Aguascalientes</p>
+            </div>
+            <div class="w-100 d-flex">
+                <a href="" class="">Saber más</a>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item carrusel-right">
+      <img src="/images/bg1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+            <div class="w-100 d-flex">
+                <h5 class="text-left">SERVICIO DE <br> EXCELENCIA</h5>
+            </div>
+            <div class="w-100 d-flex">
+                <p>La mejor atencion médica, ahora en Aguascalientes</p>
+            </div>
+            <div class="w-100 d-flex">
+                <a href="" class="">Saber más</a>
+            </div>
+        </div>
+    </div>
+
+  </div>
+  {{!-- <a class="carousel-control-prev" href="#maincarrusel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#maincarrusel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> --}}
+</div>
+
+<div id="servicios" class="container-fluid">
+    <div  class="container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fas fa-clipboard-list w-100"></i>
+                <h3 class="text-center my-4">SERVICIOS</h3>
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Endoscopia</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Exploración Rectal</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cirugía Colorrectal</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cirugía de Colon</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?   
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--ENFERMEDADES-->
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home2" role="tabpanel" aria-labelledby="v-pills-home-tab2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile2" role="tabpanel" aria-labelledby="v-pills-profile-tab2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages-tab2">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?   
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sequi similique illo est aperiam
+                        sit commodi, mollitia recusandae tempore? Magnam veniam aperiam magni commodi repudiandae harum ullam illo non?
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <i class="fas fa-syringe w-100"></i>
+                <h3 class="text-center my-4">ENFERMEDADES</h3>
+                <div id="enfermedades" class="nav flex-column nav-pills" id="v-pills-tab2" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab2" data-toggle="pill" href="#v-pills-home2" role="tab" aria-controls="v-pills-home" aria-selected="true">Endoscopia</a>
+                    <a class="nav-link" id="v-pills-profile-tab2" data-toggle="pill" href="#v-pills-profile2" role="tab" aria-controls="v-pills-profile" aria-selected="false">Exploración Rectal</a>
+                    <a class="nav-link" id="v-pills-messages-tab2" data-toggle="pill" href="#v-pills-messages2" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cirugía Colorrectal</a>
+                    <a class="nav-link" id="v-pills-settings-tab2" data-toggle="pill" href="#v-pills-settings2" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cirugía de Colon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="ubicacion" class="container-fluid">
+    <div class="row">
+        <div id="map"></div>
+    </div>
+
+    <div class="contact">
+        <h5>Dr. Alan Rodríguez Monroy</h5>
+        <h6><b>Licenciatura: </b>Médico Cirujano</h6>   
+        <h6><b>Cel: </b>(52)XXX XXX XXXX</h6>        
+        <h6><b>Email: </b>arodriguez@gastroprocto.com</h6>    
+    </div>
+
+    <div class="contact2">
+        <h5>Dra. Yazmín Berrones</h5>
+        <h6><b>Licenciatura: </b>Médico Cirujano</h6>   
+        <h6><b>Cel: </b>(52)XXX XXX XXXX</h6>        
+        <h6><b>Email: </b>arodriguez@gastroprocto.com</h6>          
+    </div>
+</div>
+
+
+<div id="socialnetworks" class="d-flex">
+    <div class="col-5">
+        <img src="/images/logobig.jpeg" alt="">
+    </div>
+    <div class="col-7">
+        <h4>Nuestras Redes Sociales</h4>
+        <div>
+            <img src="/images/facebook.png" alt="">
+            <img src="/images/instagram.png" alt="">
+            <img src="/images/whatsapp.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<div id="copyright" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <p class="mb-0 col-8">© Gastroprocto Medical Center. Todos los derechos reservados.</p>
+            <p class="mb-0 col-4 text-right ">Diseñado por: SMART Web Applications</p>
+        </div>
+    </div>
+    
+
+</div>
+        {{> _scripts}}
+</body>
+</html>
