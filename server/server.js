@@ -23,3 +23,7 @@ app.listen(port, () =>{
 app.get("/", (req,res) =>{
     res.render("index.hbs");
 });
+
+app.get('/quienessomos', (req,res) =>{
+    res.render("quienessomos.hbs");
+});

@@ -162,7 +162,8 @@ body{
 }
 
     .bg-light{
-        background-color: rgba(255,255,255,1) !important;
+        /* background-color: rgba(255,255,255,1) !important; */
+        background-color: #f7f7f7 !important;
     }
 
 #servicios{
@@ -321,6 +322,57 @@ body{
     margin-left: 6vw;
 }
 
+
+.h-title{
+    position: relative;
+    overflow: hidden;
+    margin-top: 66px;
+    align-items: center;
+}
+
+.h-title img{
+    width: 100%;
+    display: block;
+}
+
+.page-title{
+    color: #c0d272;
+}
+
+.page-title span{
+    font-weight: bold;
+}
+
+.page-title{
+    font-family: 'Cinzel', serif;
+    font-size: 5em;
+    padding-left: 4vw;
+}
+
+.h-title figure{
+    width: 100%;
+    max-height: 20vh;
+}
+
+.h-title section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+.white-filter{
+    width: 60% !important;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient( to right, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0));
+    /* background-color: red; */
+}
 
 @media screen and (max-width: 1400px){
     .carrusel-left .carousel-caption h5, .carrusel-left-2 .carousel-caption h5, .carrusel-right .carousel-caption h5{
