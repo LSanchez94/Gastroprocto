@@ -242,11 +242,24 @@ body{
     color: #c0d272;
 }
 
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: rgba(10, 47, 81, 1);
+    background-color: #12416d;
     color: #FFF !important;
 }
 
+
+ #berrones .nav-pills .nav-link.active, #berrones .nav-pills .show>.nav-link{
+    background-color: #f78f8f !important;
+    color: #FFF !important;
+}
+
+a{
+    color: #12416d;
+}
+#berrones a{
+    color: #f78f8f;
+}
 #socialnetworks{
     height: 40vh;
     background-color: #FFF;
@@ -370,8 +383,66 @@ body{
     top: 0;
     left: 0;
     z-index: 2;
-    background: linear-gradient( to right, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0));
+    background: linear-gradient( to right, rgba(255,255,255,0.8) 60%, rgba(255,255,255,0));
     /* background-color: red; */
+}
+
+
+.info{
+    font-weight: 100;
+}
+
+.info h2{
+    padding: 0 0 1vh;
+}
+
+.info img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.list-group-item{
+    padding-bottom: 20px;
+}
+
+#services-cards section{
+    display: flex;
+    align-items: center;    
+    background-color: #12416d;   
+    height: 20vh;
+    width: 100%;
+    /* border: 3px solid #12416d; */
+    border-radius: 15px;
+    margin: 1vh 0;
+    color:#FFF;
+    cursor: pointer;
+
+}
+
+#services-cards div:nth-child(even) section{
+    display: flex;
+    align-items: center;    
+    background-color: #c0d272;   
+    height: 20vh;
+    width: 100%;
+    /* border: 3px solid #c0d272; */
+    border-radius: 15px;
+}
+
+
+#services-cards h3{    
+    width: 80%;
+    margin: auto;
+    /* color: #FFF; */
+    text-align: center;
+    font-weight: bold;
+    transition: all .5s;
+    font-size: 1.4em;
+}
+
+#services-cards section:hover h3{
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1400px){

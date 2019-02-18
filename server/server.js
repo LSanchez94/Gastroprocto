@@ -27,3 +27,7 @@ app.get("/", (req,res) =>{
 app.get('/quienessomos', (req,res) =>{
     res.render("quienessomos.hbs");
 });
+
+app.get('/servicios', (req,res) =>{
+    res.render("servicios.hbs");
+});
