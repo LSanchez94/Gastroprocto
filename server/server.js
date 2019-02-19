@@ -29,7 +29,7 @@ app.get('/quienessomos', (req,res) =>{
 });
 
 app.get('/servicios', (req,res) =>{
-    res.render("servicios.hbs");
+    res.render("servicios2.hbs");
 });
 
 app.get('/enfermedades', (req,res) =>{
