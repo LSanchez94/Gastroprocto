@@ -250,7 +250,7 @@ body{
 
 
  #berrones .nav-pills .nav-link.active, #berrones .nav-pills .show>.nav-link{
-    background-color: #f78f8f !important;
+    background-color: #d792b0 !important;
     color: #FFF !important;
 }
 
@@ -258,7 +258,7 @@ a{
     color: #12416d;
 }
 #berrones a{
-    color: #f78f8f;
+    color: #d792b0;
 }
 #socialnetworks{
     height: 40vh;
@@ -453,13 +453,37 @@ a{
 }
 
 #pinkstyle .list-group-item.active{
-    background-color: #f78f8f; 
-    border-color:  #f78f8f; 
+    background-color: #d792b0; 
+    border-color:  #d792b0; 
 }
 
 
 #serviciosgrid{
     min-height: 90vh;
+}
+
+#enfermedades h5{
+    margin-bottom: 0;
+}
+
+#enfermedades .bluestyle .card:nth-child(odd) .card-body{
+    background-color: #12416d;
+    color: #FFF;
+}
+
+#enfermedades h5{
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#enfermedades .card-body:hover h5{
+    transform: scale(1.2);
+}
+
+#enfermedades .pinkstyle .card:nth-child(even) .card-body{
+    background-color: #d792b0;
+    color: #FFF;
 }
 
 @media screen and (max-width: 1400px){
