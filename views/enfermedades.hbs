@@ -23,230 +23,151 @@
 
 
     <!-- SERVICES GRID  -->
-    <div class="container mt-4">
+    <div class="container-fluid">
         <div class="row">
-            <h3 class="py-5 text-center w-100">
+            <h3 class="py-4 text-center w-100">
                 {{!-- Contamos con los siguientes servicios para la atención de nuestros pacientes, y servicio
                 de urgencias en enfermedades de colon, recto y ano las 24 horas. --}}
             </h3>
         </div>
-        <div class="row">
-        <div class="col-4">
-            <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Esofagitis</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Várices Esofágicas</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Gastritis</a>
-                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Úlceras gástricas</a>
-                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Hernia Hiatal</a>
+        <div id="enfermedades" class="row px-5">
+          <div class="col-6">
+            <h3 class="pb-2 mb-5 text-center" style="border-bottom:2px solid #12416d">DR. ALAN RODRÍGUEZ MONROY</h3>
+            <div class="card-columns">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Esofagitis</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Várices Esofágicas</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Gastritis</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Úlceras Gástricas</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Hernia Hiatal</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Cáncer Gástrico</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Colecistitis litiásica Aguda (piedras en vesícula)</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Coledocolitiasis</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Pancreatitis</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Colitis</h5>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Síndrome de Intestino Irritable</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Enfermedad Inflamatoria Intestinal (CUCI, Crohn)</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Enfermedad Diverticular</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Apendicitis</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Fístulas Abdominales</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Peritonitis Aguda</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Manejo de pólipos en estómago y colon</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Hernias de pared abdominal e inguinales</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Lipomas</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Obesidad Mórbida</h5>
+                </div>
+              </div>
 
             </div>
-        </div>
-        <div class="col-8">
-            <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
-            </div>
-        </div>
+          </div>
+
+          <div class="col-6">
+
+          </div>
         </div>
     </div>
 
 
 
 
-    <!-- Modal contacto -->
-<div class="modal fade" id="consultasm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CONSULTA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Diagnóstico y tratamiento de enfermedades de colon, recto y ano con trato profesional, amable y confidencial. Se ofrecen múltiples manejos sin dolor o 
-        mínimamente invasivos antes de la cirugía, con las técnicas mas innovadoras a nivel mundial.
-      </div>
-    </div>
-  </div>
-</div>
 
-    <!-- Modal Terapia -->
-<div class="modal fade" id="terapiam" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">TERAPIA DE REHABILITACIÓN PELVICA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Manejo integral de enfermedades de disfunción del piso pélvico como estreñimiento,
-         incontinencia urinaria y fecal, escape de gases, prolapso, dolor pélvico, anal y vaginal.
-         <ul>
-             <li>
-                 Electroestimulación: Aplicación de estímulos eléctricos indoloros que permite tratar padecimientos como incontinencia, estreñimiento, dolor crónico.   
-             </li>
-             <li>
-                 Biofeedback: Uso de la tecnología con imágenes y sonidos que permiten conocer al paciente la manera correcta de defecar y fortalecer la musculatura del piso pélvico.
-             </li>
-             <li>
-                 Re-educación evacuatoria: Educación al paciente del proceso de la evacuación con eliminación de los malos hábitos defecatorios que producen estreñimiento crónico.
-             </li>
-         </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="endoanal3dm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ULTRASONIDO ENDOANAL 3D</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Realización de estudios ultrasonográficos en 3D para ver la anatomía del ano y realizar un diagnóstico certero en patologías como incontinencia anal, abscesos y fistulas anales.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="prevencionm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">PREVENCIÓN DE CANCER DE COLON Y RECTO</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          El Cáncer Colorrectal representa la 3era causa de cáncer a nivel mundial y la 2da causa de muertes por cáncer. Esto se debe a que las personas desconocen el protocolo 
-          para prevenir y curar el cáncer antes de que aparezca el cual se debe realizar a toda la población a partir de los 45 años o antes si hay historia familiar.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="tratamientom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">TRATAMIENTO MINIMAMENTE INVASIVO DE ENFERMEDADES ANORRECTALES</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          Se ofrecen múltiples opciones de tratamientos no quirúrgicos para resolver enfermedades anorrectales.
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 3D -->
-<div class="modal fade" id="cirugiam" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CIRUGIA AMBULATORIA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-Realización de cirugía de corta estancia con técnicas mínimamente invasivas que disminuyen el dolor y ayudan a preservar la continencia fecal.      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="endoscopiam" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ENDOSCOPIA AVANZADA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          Realización de panendoscopia, duodenoscopia, colonoscopia con sedación y CPRE para diagnóstico/tratamiento de reflujo gastroesofágico, hernia hiatal, gastritis, piedras en vía biliar, colitis, pólipos, cáncer de tracto digestivo y sangrado de tubo digestivo.
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- Modal 3D -->
-<div class="modal fade" id="bariatricam" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">TERAPIA BARIÁTRICA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-Asesoramiento y uso de técnicas endoscópicas y quirúrgicas para el tratamiento de la obesidad mórbida.    </div>
-  </div>
-</div>
-</div>
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="cancerm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">PREVENCIÓN DE CANCER DE COLON Y RECTO</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          El Cáncer Colorrectal representa la 3era causa de cáncer a nivel mundial
-           y la 2da causa de muertes por cáncer. Esto se debe a que las personas
-            desconocen el protocolo para prevenir y curar el cáncer antes de que
-             aparezca el cual se debe realizar a toda la población a partir de los 
-             45 años o antes si hay historia familiar.
- </div>
-  </div>
-</div>
-</div>
-
-
-<!-- Modal 3D -->
-<div class="modal fade" id="abdominalm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">LAPAROSCOPIA ABDOMINAL</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-Realización de cirugía mínimamente invasiva con heridas pequeñas y poca manipulación de tejidos que promueve una recuperación postoperatoria mas rápida
- </div>
-  </div>
-</div>
-</div>
 
 
 
