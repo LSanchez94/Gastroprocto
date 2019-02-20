@@ -445,6 +445,18 @@ a{
     transform: scale(1.2);
 }
 
+
+
+#bluestyle .list-group-item.active{
+    background-color: #12416d; 
+    border-color: #12416d;
+}
+
+#pinkstyle .list-group-item.active{
+    background-color: #f78f8f; 
+    border-color:  #f78f8f; 
+}
+
 @media screen and (max-width: 1400px){
     .carrusel-left .carousel-caption h5, .carrusel-left-2 .carousel-caption h5, .carrusel-right .carousel-caption h5{
         font-size: 4.2em;
