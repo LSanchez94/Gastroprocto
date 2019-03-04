@@ -39,3 +39,7 @@ app.get('/enfermedades', (req,res) =>{
 app.get('/promociones', (req,res) =>{
     res.render("promociones.hbs");
 });
+
+app.get('/contacto', (req,res) =>{
+    res.render("contacto.hbs");
+});
