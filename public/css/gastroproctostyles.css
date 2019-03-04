@@ -725,6 +725,9 @@ a{
         font-size: 2em;
     }
 
+    .h-title figure{
+        max-height: 10vh;
+    }
     .name{
         font-size: 1.4em !important;
     }
