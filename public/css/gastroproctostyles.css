@@ -277,7 +277,6 @@ a{
 
 
 #socialnetworks{
-    min-height: 40vh;
     background-color: #FFF;
     margin-bottom: 2vh;
     overflow: hidden;
@@ -298,7 +297,7 @@ a{
     display: block;
     margin: 0 auto;
     margin-left: 6vw;
-    padding-top: 14vh;
+    padding: 7vh 0;
     width: 80%;
 }
 
