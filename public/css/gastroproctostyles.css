@@ -517,6 +517,16 @@ a{
     color: #FFF;
 }
 
+.utext{
+    font-size: 1.4em;
+    line-height: 2em;
+    margin-bottom: 0;
+}
+
+.utext b:first-child{
+    font-size: 2em;
+}
+
 
 @media screen and (max-width: 1200px){
 
@@ -652,6 +662,10 @@ a{
     .page-title{
         font-size: 4em;
     }
+
+    .utext{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -699,6 +713,10 @@ a{
         text-align: center;
         width: 100%;
     }
+
+    .utext{
+        padding: 2vh 0;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -706,7 +724,7 @@ a{
     .navbar-brand img{
         margin-left: 0;
     }
-    
+
     .carousel-caption h5{
         width: 100%;
         padding: 0.4em 0;
