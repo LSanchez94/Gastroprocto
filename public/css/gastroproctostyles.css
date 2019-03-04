@@ -350,6 +350,16 @@ a{
 }
 
 
+.bluelist .list-group-item.active{
+    background-color: #12416d;
+    border-color: #12416d;
+}
+
+.pinklist .list-group-item.active{
+    background-color: #d792b0 !important;
+    border-color:  #d792b0 !important;
+}
+
 .navbar-brand img{
     margin-left: 6vw;
 }
