@@ -35,3 +35,7 @@ app.get('/servicios', (req,res) =>{
 app.get('/enfermedades', (req,res) =>{
     res.render("enfermedades.hbs");
 });
+
+app.get('/promociones', (req,res) =>{
+    res.render("promociones.hbs");
+});
