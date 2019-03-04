@@ -190,7 +190,7 @@ body{
     color: #12416D;
 }
 
-#servicios i{
+#servicios i, #ubicacion i{
     font-size: 3em;
     text-align: center;
 }
@@ -215,11 +215,12 @@ body{
     left: 0;
     right: 70%;
     padding: 12vh 0;
-    padding-left: 6vw;
+    /* padding-left: 6vw; */
     color: #FFF;
     background-color: rgba(10, 47, 81, 0.8);
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
+    text-align: center;
 }
 
 #ubicacion .contact2{
@@ -229,11 +230,12 @@ body{
     left: 70%;
     right: 0;
     padding: 12vh 0;
-    padding-left: 8vw;
+    /* padding-left: 8vw; */
     color: #FFF;
     background-color: rgba(215, 146, 176, 0.9);
     border-top-left-radius: 25%;
     border-bottom-left-radius: 25%;
+    text-align: center;
 }
 
 #map{
@@ -523,7 +525,7 @@ a{
         position: absolute;
         right: 76%;
         padding: 8vh 0;
-        padding-left: 3vw;
+        /* padding-left: 3vw; */
         border-top-right-radius: 10%;
         border-bottom-right-radius: 10%;
     }
@@ -532,7 +534,7 @@ a{
         position: absolute;
         left: 76%;
         padding: 8vh 0;
-        padding-left: 3vw;
+        /* padding-left: 3vw; */
         border-top-left-radius: 10%;
         border-bottom-left-radius: 10%;
     }
@@ -574,9 +576,8 @@ a{
         right: 50%;
         padding: 8vh 0;
         bottom: 0;
-        padding-left: 10vw;
-        border-top-right-radius: 10%;
-        border-bottom-right-radius: 10%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     #ubicacion .contact2{
@@ -585,9 +586,8 @@ a{
         left: 50%;
         padding: 8vh 0;
         bottom: 0;
-        padding-left: 12vw;
-        border-top-left-radius: 10%;
-        border-bottom-left-radius: 10%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     #socialnetworks{
@@ -635,6 +635,61 @@ a{
     }
 
     .carousel-caption a{
+        font-size: 0.8em;
+    }
+
+    #ubicacion .contact{
+        position: absolute;
+        top: 80vh;
+        right: 50%;
+        padding: 8vh 0;
+        bottom: 0;
+    }
+
+    #ubicacion .contact2{
+        position: absolute;
+        top:80vh;
+        left: 50%;
+        padding: 8vh 0;
+        bottom: 0;       
+    }
+
+    .contact h5, .contact2 h5{
+        font-size: 1em;
+    }
+
+    .contact h6, .contact2 h6{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .carousel-caption h5{
+        width: 100%;
+        padding: 0.4em 0;
+        font-size: 2em;
+    }
+
+    .p-cont{
+        font-size: 0.8em;    
+    }
+
+    .carousel-caption a{
+        font-size: 0.8em;
+    }
+
+    #socialnetworks h4{
+        font-size: 1em;
+    }
+    .contact h5, .contact2 h5{
+        font-size: 0.8em;
+    }
+
+    .contact h6, .contact2 h6{
+        font-size: 0.7em;
+    }
+
+    #copyright p{
         font-size: 0.8em;
     }
 }
