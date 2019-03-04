@@ -507,6 +507,11 @@ a{
 
 
 @media screen and (max-width: 1200px){
+
+    #maincarrusel img{
+        width: 120%;
+    }
+
     .carousel-caption h5{
         font-size: 4em;
         width: 100%;
@@ -553,6 +558,11 @@ a{
 }
 
 @media screen and (max-width: 992px){
+
+    #maincarrusel img{
+        width: 140%;
+    }
+
     .carousel-caption h5{
         font-size: 3.5em;
     }
@@ -629,6 +639,12 @@ a{
 }
 
 @media screen and (max-width: 768px){
+
+    #maincarrusel img{
+        width: 200%;
+        margin-left: -30%;
+    }
+
     .carousel-caption h5{
         width: 100%;
         padding: 0.4em 0;
