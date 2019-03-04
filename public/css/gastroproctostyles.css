@@ -389,6 +389,8 @@ a{
 .h-title section{
     position: absolute;
     top: 0;
+    right: 0;
+    left: 0;
     bottom: 0;
     z-index: 3;
     display: flex;
@@ -636,6 +638,10 @@ a{
         margin-top: 0;
         padding: 4vh 0;
     }
+
+    .page-title{
+        font-size: 4em;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -677,6 +683,12 @@ a{
     .contact h6, .contact2 h6{
         font-size: 0.9em;
     }
+
+    .page-title{
+        font-size: 3em;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -706,6 +718,18 @@ a{
     }
 
     #copyright p{
+        font-size: 0.8em;
+    }
+
+    .page-title{
+        font-size: 2em;
+    }
+
+    .name{
+        font-size: 1.4em !important;
+    }
+
+    .esp{
         font-size: 0.8em;
     }
 }
