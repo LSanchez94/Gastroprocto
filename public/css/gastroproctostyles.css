@@ -33,6 +33,14 @@ body{
     background-color: rgba(215,146,176,1) !important;
 }
 
+.greenbg8{
+    background-color: rgba(192,210,114,0.8) !important;
+}
+
+.greenbg{
+    background-color: rgba(192,210,114,1) !important;
+}
+
 /* LEFT TEXT CARRUSEL*/
 .carousel-caption{
     top: 0;
@@ -209,7 +217,7 @@ body{
 }
 
 #ubicacion{
-    height: 78vh;
+    height: 84vh;
     /* background-color: #C6C7CA; */
     background-color: #FFF;
     background-size: cover;
@@ -219,11 +227,10 @@ body{
 
 #ubicacion .contact{
     position: absolute;
-    top: 0vh;
-    bottom: 45.5vh;
+    top: 0;
     left: 0;
     right: 70%;
-    padding: 12vh 0;
+    padding: 10vh 0;
     /* padding-left: 6vw; */
     color: #FFF;
     background-color: rgba(10, 47, 81, 0.8);
@@ -234,11 +241,10 @@ body{
 
 #ubicacion .contact2{
     position: absolute;
-    top: 0vh;
-    bottom: 45.5vh;
+    top: 0;
     left: 70%;
     right: 0;
-    padding: 12vh 0;
+    padding: 10vh 0;
     /* padding-left: 8vw; */
     color: #FFF;
     background-color: rgba(215, 146, 176, 0.9);
