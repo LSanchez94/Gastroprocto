@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'myriandpro';
+    src: url('../webfonts/MYRIADPRO-REGULAR.OTF') format("opentype");; 
+  }
+
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'myriandpro', sans-serif;
 }
 
 #maincarrusel .carousel-item{
@@ -33,7 +38,7 @@ body{
 }
 
 .carousel-caption h5{
-    font-family: 'Staatliches', cursive;
+    /* font-family: 'myriandpro', cursive; */
     font-size: 5em;
     line-height: 1.1;
     letter-spacing: 4px;
@@ -54,7 +59,7 @@ body{
 }
 
 .carousel-caption p{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-size: 1.4em;
     letter-spacing: 0.5px;
     color: #303030;
@@ -386,7 +391,7 @@ a{
 }
 
 .page-title{
-    font-family: 'Cinzel', serif;
+    font-family: 'myriandpro', sans-serif;
     font-size: 5em;
     padding-left: 4vw;
 }
