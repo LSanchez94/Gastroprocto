@@ -217,7 +217,7 @@ body{
 }
 
 #ubicacion{
-    height: 84vh;
+    /* height: 70vh; */
     /* background-color: #C6C7CA; */
     background-color: #FFF;
     background-size: cover;
@@ -230,8 +230,8 @@ body{
     top: 0;
     left: 0;
     right: 70%;
+    bottom: 0;
     padding: 10vh 0;
-    /* padding-left: 6vw; */
     color: #FFF;
     background-color: rgba(10, 47, 81, 0.8);
     border-top-right-radius: 25%;
@@ -245,6 +245,7 @@ body{
     left: 70%;
     right: 0;
     padding: 10vh 0;
+    bottom: 0;
     /* padding-left: 8vw; */
     color: #FFF;
     background-color: rgba(215, 146, 176, 0.9);
@@ -327,8 +328,8 @@ a{
 }
 
 #socialnetworks .col-lg-7 img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: #FFF;
 }
 
@@ -342,8 +343,8 @@ a{
     width: 70%;
     display: flex;
     justify-content: center;
-    margin-left: 7vw;
-    margin-top: 9vh;
+    margin-left: 8vw;
+    margin-top: 4vh;
 }
 
 #socialnetworks h4{
@@ -542,6 +543,9 @@ a{
     font-size: 2em;
 }
 
+#socialnetworks .row{
+    flex-wrap: nowrap;
+}
 
 @media screen and (max-width: 1200px){
 
@@ -614,7 +618,7 @@ a{
     }
 
     #ubicacion{
-        height: 120vh;
+        /* height: 120vh; */
     }
 
     #ubicacion .contact{
@@ -681,6 +685,12 @@ a{
     .utext{
         font-size: 1em;
     }
+
+    #socialnetworks .row{
+        flex-wrap: wrap;
+    }
+
+
 }
 
 @media screen and (max-width: 768px){
@@ -782,6 +792,12 @@ a{
 
     .esp{
         font-size: 0.8em;
+    }
+
+    #socialnetworks .col-lg-7 img{
+        width: 60px;
+        height: 60px;
+        background-color: #FFF;
     }
 }
 
