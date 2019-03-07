@@ -333,7 +333,7 @@ a{
     background-color: #FFF;
 }
 
-#socialnetworks .col-lg-7 img:nth-child(2){
+#socialnetworks .col-lg-7 a:nth-child(2){
     margin: 0 4vw; 
 }
 
