@@ -617,13 +617,17 @@ a{
         font-size: 0.8em;
     }
 
-    #ubicacion{
-        /* height: 120vh; */
+    /* #ubicacion{
+        height: 120vh; 
+    } */
+
+    #contact-mobile{
+        height: 60vh;
     }
 
     #ubicacion .contact{
         position: absolute;
-        top: 80vh;
+        top: 60vh;
         right: 50%;
         padding: 8vh 0;
         bottom: 0;
@@ -633,7 +637,7 @@ a{
 
     #ubicacion .contact2{
         position: absolute;
-        top:80vh;
+        top: 60vh;
         left: 50%;
         padding: 8vh 0;
         bottom: 0;
@@ -711,7 +715,7 @@ a{
 
     #ubicacion .contact{
         position: absolute;
-        top: 80vh;
+        top: 60vh;
         right: 50%;
         padding: 8vh 0;
         bottom: 0;
@@ -719,10 +723,14 @@ a{
 
     #ubicacion .contact2{
         position: absolute;
-        top:80vh;
+        top:60vh;
         left: 50%;
         padding: 8vh 0;
         bottom: 0;       
+    }
+
+    #contact-mobile{
+        height: 60vh;
     }
 
     .contact h5, .contact2 h5{
@@ -799,6 +807,8 @@ a{
         height: 60px;
         background-color: #FFF;
     }
+
+    
 }
 
 
